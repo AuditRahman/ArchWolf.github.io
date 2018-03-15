@@ -7,9 +7,6 @@ function setup() {
   function brainReady() {
     console.log('Chatbot ready!');
     bot.sortReplies();
-    let num = floor(random(10)) + 1;
-    console.log(num);
-    let reply = bot.reply('local-user', 'set ' + num);
   }
 
   function brainError() {
